@@ -76,7 +76,7 @@
             Controls.Add(cmbDipendenti);
             Controls.Add(dgvDipendenti);
             Name = "Form1";
-            Text = "Form1";
+            Text = "MUM - Gestione dipendenti";
             ((System.ComponentModel.ISupportInitialize)dgvDipendenti).EndInit();
             ResumeLayout(false);
         }

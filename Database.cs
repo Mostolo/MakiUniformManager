@@ -57,7 +57,7 @@ internal static class Database
         return table; //restituisce quella tabella
     }
 
-    public static void AddDipendenti(string nome, string cognome)
+    public static void AddDipendente(string nome, string cognome)
     {
         using var connection = new SqliteConnection($"Data Source ={FilePath}");
 
