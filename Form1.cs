@@ -15,7 +15,12 @@ namespace MakiUniformManager
         {
             using var form = new FrmNuovoDipendente(); //apre il form
 
-            form.ShowDialog(this); //blocca tutto finche non hai finito
+            if (form.ShowDialog(this) == DialogResult.OK) //showdialog impedisce di fare altro
+            {                                             //dialogresult.ok fa progredire solo se clicchi salva
+                dgvDipendenti.DataSource = Database.GetDipendenti();
+            }
+
+            form.ShowDialog(this); 
         }
     }
 }

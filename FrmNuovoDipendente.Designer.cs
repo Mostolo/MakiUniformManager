@@ -71,13 +71,14 @@
             // 
             // btnSalva
             // 
-            btnSalva.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            btnSalva.Location = new Point(345, 148);
+            btnSalva.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnSalva.Location = new Point(363, 148);
             btnSalva.Name = "btnSalva";
             btnSalva.Size = new Size(112, 34);
             btnSalva.TabIndex = 4;
             btnSalva.Text = "Salva";
             btnSalva.UseVisualStyleBackColor = true;
+            btnSalva.Click += btnSalva_Click;
             // 
             // FrmNuovoDipendente
             // 
