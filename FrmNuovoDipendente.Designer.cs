@@ -57,17 +57,17 @@
             // 
             txtNome.Location = new Point(12, 37);
             txtNome.Name = "txtNome";
+            txtNome.PlaceholderText = "Inserisci nome";
             txtNome.Size = new Size(463, 31);
             txtNome.TabIndex = 2;
-            txtNome.Text = "Inserisci nome";
             // 
             // txtCognome
             // 
             txtCognome.Location = new Point(12, 111);
             txtCognome.Name = "txtCognome";
+            txtCognome.PlaceholderText = "Inserisci cognome";
             txtCognome.Size = new Size(463, 31);
             txtCognome.TabIndex = 3;
-            txtCognome.Text = "Inserisci cognome";
             // 
             // btnSalva
             // 
