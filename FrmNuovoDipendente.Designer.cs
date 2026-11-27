@@ -59,7 +59,7 @@
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(463, 31);
             txtNome.TabIndex = 2;
-            txtNome.Text = "Inserisci";
+            txtNome.Text = "Inserisci nome";
             // 
             // txtCognome
             // 
@@ -67,7 +67,7 @@
             txtCognome.Name = "txtCognome";
             txtCognome.Size = new Size(463, 31);
             txtCognome.TabIndex = 3;
-            txtCognome.Text = "Inserisci";
+            txtCognome.Text = "Inserisci cognome";
             // 
             // btnSalva
             // 
