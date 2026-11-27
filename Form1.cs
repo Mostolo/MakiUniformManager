@@ -7,8 +7,6 @@ namespace MakiUniformManager
             InitializeComponent();
 
             dgvDipendenti.DataSource = Database.GetDipendenti(); //datasource è la tabella da usa
-
-            MessageBox.Show($"Database pronto! \n{Database.FilePath}", "Maki Divise");
         }
 
         private void btnNuovoDipendente_Click(object sender, EventArgs e) //che suz quando clicco il +
@@ -19,8 +17,6 @@ namespace MakiUniformManager
             {                                             //dialogresult.ok fa progredire solo se clicchi salva
                 dgvDipendenti.DataSource = Database.GetDipendenti();
             }
-
-            form.ShowDialog(this); 
         }
     }
 }
