@@ -10,5 +10,12 @@ namespace MakiUniformManager
 
             MessageBox.Show($"Database pronto! \n{Database.FilePath}", "Maki Divise");
         }
+
+        private void btnNuovoDipendente_Click(object sender, EventArgs e) //che suz quando clicco il +
+        {
+            using var form = new FrmNuovoDipendente(); //apre il form
+
+            form.ShowDialog(this); //blocca tutto finche non hai finito
+        }
     }
 }

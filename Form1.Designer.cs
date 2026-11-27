@@ -66,6 +66,7 @@
             btnNuovoDipendente.TabIndex = 2;
             btnNuovoDipendente.Text = "+";
             btnNuovoDipendente.UseVisualStyleBackColor = true;
+            btnNuovoDipendente.Click += btnNuovoDipendente_Click;
             // 
             // Form1
             // 
